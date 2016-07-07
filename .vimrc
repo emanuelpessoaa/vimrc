@@ -23,10 +23,16 @@ Plugin 'edkolev/tmuxline.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+
 set laststatus=2
 set t_Co=256
 set number
 syntax enable
+"set background=dark
+"let g:solarized_termcolors = 256
+"let g:solarized_degrade = 1
+"let g:solarized_termtrans = 1
+"colorscheme solarized
 colorscheme dracula
 
 let g:tmuxline_powerline_separators = 0
